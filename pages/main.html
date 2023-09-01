@@ -1,0 +1,140 @@
+<div class="main">
+    <div class="folder-info-container">
+        <div class="folder-info">
+            <h2>Folder Name</h2>
+            <p><span>root</span>/<span>users</span>/<span>icons</span></p>
+        </div>
+        <div class="formattings-options">
+            <ul>
+                <li>
+                    <i class="mdi mdi-magnify"></i>
+                </li>
+                <li>
+                    <i class="mdi mdi-refresh"></i>
+                </li>
+                <li onclick="showAsTable()">
+                    <i class="mdi mdi-format-list-bulleted"></i>
+                </li>
+                <li onclick="showAsCard()">
+                    <i class="mdi mdi-view-grid-outline"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Media Containers -->
+    <div class="media-container astable">
+        <div class="media-card tableColumns">
+            <div class="media-icon"></div>
+            <div class="media-title">
+                <p>Name</p>
+            </div>
+            <div class="media-owner">
+                <p>Owner</p>
+            </div>
+            <div class="media-modified">
+                <p>Last modified</p>
+            </div>
+            <div class="media-size">
+                <p>File size</p>
+            </div>
+        </div>
+        <div class="media-card">
+            <div class="media-icon">
+                <img src="assets/icons/siteicon.png">
+            </div>
+            <div class="media-title">
+                <p>Sample Folder</p>
+            </div>
+            <div class="media-owner">
+                <p>Tanish</p>
+            </div>
+            <div class="media-modified">
+                <p>Aug 31, 2023 by me</p>
+            </div>
+            <div class="media-size">
+                <p>-</p>
+            </div>
+        </div>
+        <div class="media-card">
+            <div class="media-icon">
+                <img src="assets/icons/siteicon.png">
+            </div>
+            <div class="media-title">
+                <p>Sample Folder</p>
+            </div>
+            <div class="media-owner">
+                <p>Tanish</p>
+            </div>
+            <div class="media-modified">
+                <p>Aug 31, 2023 by me</p>
+            </div>
+            <div class="media-size">
+                <p>-</p>
+            </div>
+        </div>
+        <div class="media-card">
+            <div class="media-icon">
+                <img src=".junk/tm1.jpg">
+            </div>
+            <div class="media-title">
+                <p>Sample Folder</p>
+            </div>
+            <div class="media-owner">
+                <p>Tanish</p>
+            </div>
+            <div class="media-modified">
+                <p>Aug 31, 2023 by me</p>
+            </div>
+            <div class="media-size">
+                <p>-</p>
+            </div>
+        </div>
+        <div class="media-card">
+            <div class="media-icon">
+                <img src=".junk/tm2.jpg">
+            </div>
+            <div class="media-title">
+                <p>Sample Folder</p>
+            </div>
+            <div class="media-owner">
+                <p>Tanish</p>
+            </div>
+            <div class="media-modified">
+                <p>Aug 31, 2023 by me</p>
+            </div>
+            <div class="media-size">
+                <p>-</p>
+            </div>
+        </div>
+        <div class="media-card">
+            <div class="media-icon">
+                <img src=".junk/tm3.jpg">
+            </div>
+            <div class="media-title">
+                <p>Sample Folder</p>
+            </div>
+            <div class="media-owner">
+                <p>Tanish</p>
+            </div>
+            <div class="media-modified">
+                <p>Aug 31, 2023 by me</p>
+            </div>
+            <div class="media-size">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // Adding temp action
+    let container = document.getElementsByClassName('media-container')[0];
+    function showAsTable(){
+        container.classList.remove('ascard');
+        container.classList.add('astable');
+    }
+    function showAsCard(){
+        container.classList.remove('astable');
+        container.classList.add('ascard');
+    }
+</script>
