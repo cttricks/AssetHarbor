@@ -16,6 +16,8 @@
         <?php include_once('pages/main.html'); ?>
     </section>
     <!-- File Info Container & Viewer -->
+
+    <?php include_once('pages/fileinfo.html'); ?>
     <!-- Footer -->
 </body>
 </html>

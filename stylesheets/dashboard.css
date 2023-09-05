@@ -206,3 +206,31 @@
 .media-card{
     cursor: pointer;
 }
+
+/*File-Info*/
+.file-info-container{
+    position: absolute;
+    max-width: 512px;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background: #fff;
+    border-left: 1px solid #ccc;
+}
+
+.fic-header{
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.fic-header h2{
+    margin-bottom: 15px;
+}
+
+.fic-header img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
