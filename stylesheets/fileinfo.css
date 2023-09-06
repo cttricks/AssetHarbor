@@ -1,0 +1,58 @@
+.file-info-container{
+    position: absolute;
+    width: 355px;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background: #fff;
+    border-left: 1px solid #ccc;
+}
+
+.fic-header{
+    padding: 20px 15px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    grid-gap: 10px;
+}
+
+.fic-h-icon,
+.fic-h-button{
+    margin: 0 auto;
+    font-size: 20px;
+}
+.fic-h-button i{
+    cursor: pointer;
+}
+
+.fic-h-icon i{
+    color: rgb(247, 42, 42);
+}
+
+.fic-h-title{
+    margin: 0;
+}
+
+.fic-h-title h2{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.fic-file{
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.fic-file div{
+    width: 300px;
+    height: 165px;
+    border-radius: 4px;
+}

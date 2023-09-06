@@ -1,9 +1,21 @@
+<link rel="stylesheet" href="./stylesheets/fileinfo.css?v=2" />
 <div class="file-info-container">
     <div class="fic-header">
-        <h2>filename.jpg<i class="mdi mdi-close"></i></h2>
-        <img src=".junk/tm2.JPG">
+        <div class="fic-h-icon">
+            <i class="mdi mdi-image"></i>
+        </div>
+        <div class="fic-h-title">
+            <h2>filename.jpg</h2>
+        </div>
+        <div class="fic-h-button">
+            <i class="mdi mdi-close"></i>
+        </div>
+    </div>
+    <div class="fic-file">
+        <div style="background-image: url(.junk/tm2.JPG);"></div>
     </div>
     <div class="fic-details">
+        <h3>File details</h3>
         <table>
             <tr>
                 <td>DB Index</td>
@@ -14,8 +26,8 @@
                 <td>Sample file1</td>
             </tr>
             <tr>
-                <td>Mime-Type</td>
-                <td>image/jpg</td>
+                <td>Type</td>
+                <td>Image <span>jpg</span></td>
             </tr>
             <tr>
                 <td>Size</td>
