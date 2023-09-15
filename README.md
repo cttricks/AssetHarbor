@@ -1,6 +1,9 @@
 # AssetHarbor
 Welcome to AssetHarbor, your all-in-one solution for secure storage and management of media assets. AssetHarbor is designed to provide a seamless experience for storing, organizing, and sharing media files like images, videos, GIFs, SVGs, JSON, CSV, and text files, while catering to the needs of website and application development.
 
+### Figma
+Updating figma link soon...
+
 ## Features
 
 **Secured Access and Admin Control:** AssetHarbor ensures the security of your assets by offering controlled access. Admins/owners have the power to manage the public visibility of any asset, granting you full control over who can access your content.
